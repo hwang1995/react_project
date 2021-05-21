@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import GlobalStyles from "./components/GlobalStyles.jsx";
-import AppHeader from "./components/layout/AppHeader";
-import AppMenu from "./components/layout/AppMenu";
-import AppRoute from './components/layout/AppRoute';
+import GlobalStyles from "components/GlobalStyles.jsx";
+import AppHeader from "components/layout/AppHeader";
+import AppMenu from "components/layout/AppMenu";
+import AppRoute from 'components/layout/AppRoute';
 
 const App = () => {
   return (
