@@ -1,5 +1,4 @@
 const ComC = (props) => {
-  const items = ["눈사람", "얼음", "눈", "바람"];
   const boards = [
     { bno: 1, btitle: "제목1", bwriter: "user1", bdate: new Date(), bhitcount: 0 },
     { bno: 2, btitle: "제목2", bwriter: "user1", bdate: new Date(), bhitcount: 1000 },

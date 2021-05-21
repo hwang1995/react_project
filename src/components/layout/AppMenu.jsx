@@ -60,6 +60,10 @@ const AppMenu = () => {
         <Link to="/ch03/exam01" className="nav-link text-warning">
           Exam01Props
         </Link>
+
+        <Link to="/ch03/exam02" className="nav-link text-warning">
+          Exam02State
+        </Link>
       </li>
     </ul>
   );

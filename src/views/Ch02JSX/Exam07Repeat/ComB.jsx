@@ -1,5 +1,4 @@
 const ComB = (props) => {
-    const items = ["눈사람", "얼음", "눈", "바람"];
     const itemObj = [
         {id: '1', text: '눈사람'},
         {id: '2', text: '얼음'},
