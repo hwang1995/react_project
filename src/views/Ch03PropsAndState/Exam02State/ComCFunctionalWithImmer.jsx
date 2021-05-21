@@ -26,15 +26,12 @@ const ComCFunctionalWithImmer = (props) => {
         setJoinForm(produce(joinForm, draftState => {
           draftState.uskill.push(value);
         }))
-        // setJoinForm(prevState => ({...prevState, uskill: prevState.uskill.concat(value)}));
 
       } else {
         setJoinForm(produce(joinForm, draftState => {
           const index = draftState.uskill.findIndex(item => item === value);
           draftState.uskill.splice(index, 1);
-          // draftState['uskill'] = draftState.uskill.filter(item => item !== value)
         }))
-        // setJoinForm(prevState => ({...prevState, uskill: prevState.uskill.filter(item => item !== value)}))
       }
     }
 
