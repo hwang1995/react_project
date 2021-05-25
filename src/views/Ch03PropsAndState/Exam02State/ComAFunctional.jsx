@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 const ComAFunctional = (props) => {
-
-    let num = 0;
   const [state, setState] = useState({
     number: 1,
     color: "black",
@@ -13,8 +11,7 @@ const ComAFunctional = (props) => {
       ...state,
       number: state.number + 1,
     });
-    num = num + 1;
-    
+
     // 원래의 값을 세팅하면 렌더링이 실행되지 않는다.
     // setState(state);
   };
@@ -26,12 +23,11 @@ const ComAFunctional = (props) => {
     });
   };
 
-
   const { number, color } = state;
 
   return (
     <div className="card">
-      <div className="card-header">ComAFunctional {num}</div>
+      <div className="card-header">ComAFunctional</div>
       <div className="card-body">
         <div className="alert alert-primary" style={{ color, fontSize: "3rem" }}>
           {number}

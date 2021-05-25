@@ -8,7 +8,7 @@ import ComCFunctionalWithImmer from "./ComCFunctionalWithImmer";
 
 const Exam02State = (props) => {
   return (
-    <div className="card">œ
+    <div className="card">
       <div className="card-header">Exam02State</div>
       <div className="card-body">
           <ComAClass {...props} />
