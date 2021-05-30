@@ -6,6 +6,9 @@ import Ch03PropsAndState from 'views/Ch03PropsAndState'
 import Ch04LifeCycle from 'views/Ch04LifeCycle';
 import Ch05Style from 'views/Ch05Style'
 import Ch06Route from 'views/Ch06Route';
+import Ch07Performance from 'views/Ch07Performance';
+import Ch08GlobalState from 'views/Ch08GlobalState';
+import Ch09Ajax from 'views/Ch09Ajax';
 import Home from '../../views/Home';
 const AppRoute = () => {
     return (
@@ -17,6 +20,9 @@ const AppRoute = () => {
             <Route path="/ch04" component={Ch04LifeCycle}/>
             <Route path="/ch05" component={Ch05Style}/>
             <Route path="/ch06" component={Ch06Route} />
+            <Route path="/ch07" component={Ch07Performance}/>
+            <Route path="/ch08" component={Ch08GlobalState}/>
+            <Route path="/ch09" component={Ch09Ajax}/>
             <Redirect to="/"/>
         </Switch>
     )

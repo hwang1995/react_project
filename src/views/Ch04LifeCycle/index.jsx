@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Exam01WhenMount from './Exam01CallbackMethod';
 import Exam02UseEfect from './Exam02UseEffect';

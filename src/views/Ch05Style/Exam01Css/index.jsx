@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import cn from 'classnames/bind';
 import style from './style.module.css';
-import styles from './style.css';
 
 const cx = cn.bind(style);
 

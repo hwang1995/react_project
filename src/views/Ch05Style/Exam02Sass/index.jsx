@@ -1,11 +1,8 @@
 import React, {useState} from 'react';
-import cn from 'classnames/bind';
 import style from './style.module.scss';
 
 const Exam02Sass = (props) => {
-    const [state, setState] = useState({
-        userId: 'sfsd'
-    });
+
     return (
         <div className="card" >
             <div className="card-header">

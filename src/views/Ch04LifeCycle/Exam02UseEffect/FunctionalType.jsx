@@ -24,7 +24,7 @@ const FunctionalType = (props) => {
         console.log("마운트, 업데이트 전 실행")
     })
    
-  }, [ props ]);
+  }, [ props, state ]);
 
   useEffect(() => {
       console.log("state값이 변경되고 있어요")

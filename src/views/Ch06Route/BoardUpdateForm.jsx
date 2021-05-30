@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import {getBoard, insertBoard, updateBoard} from './data.js';
+import {getBoard,  updateBoard} from './data.js';
 
 
 const BoardUpdateForm = (props) => {

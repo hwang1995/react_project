@@ -11,7 +11,7 @@ const Child = (props) => {
                     이미지 변경
                 </button>
                 <div className="mt-2"> 
-                    <img src={`/${props.img}`} width="100%"  />
+                    <img src={`/${props.img}`} width="100%" alt='dskdskd' />
                 </div>
             </div>
         </div>
